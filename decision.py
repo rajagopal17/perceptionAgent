@@ -5,7 +5,7 @@ import asyncio
 from google import genai
 import time
 import json
-from structures.models import DecisionInput, DecisionResult
+from models import DecisionInput, DecisionResult
 # Load environment variables from .env file
 load_dotenv()
 

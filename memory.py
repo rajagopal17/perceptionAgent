@@ -1,4 +1,4 @@
-from structures.models import MemoryInput, MemoryResult
+from models import MemoryInput, MemoryResult
 
 def extract_memory(memory_input: MemoryInput) -> MemoryResult:
     """

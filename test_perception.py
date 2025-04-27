@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 import asyncio
 from google import genai
 import re
-from structures.models import PerceptionInput, PerceptionResult
+from models import PerceptionInput, PerceptionResult
 from google.api_core import exceptions as google_exceptions
 load_dotenv()
 
